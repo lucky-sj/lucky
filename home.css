@@ -488,6 +488,7 @@
 }
 .home-container03 {
   display: flex;
+  width: 800px;
   margin-right: var(--dl-space-space-threeunits);
   padding-right: var(--dl-space-space-threeunits);
   flex-direction: column;
@@ -554,9 +555,10 @@
 .home-image5 {
   width: 100%;
   position: relative;
-  max-width: 579px;
+  max-width: 779px;
   box-sizing: border-box;
-  max-height: 579px;
+  max-height: 779px;
+  transform: rotate(15deg);
   object-fit: cover;
   border-color: transparent;
 }
