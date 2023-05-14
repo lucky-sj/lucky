@@ -332,6 +332,7 @@
   grid-gap: 45px;
   position: relative;
   align-items: flex-start;
+  margin-left: -100px;
 }
 
 .home-right {
@@ -547,7 +548,7 @@
 
 .home-hero1 {
   width: 100%;
-  display: flex;
+  /* display: flex; */
   max-width: var(--dl-size-size-maxwidth);
   align-items: center;
   flex-direction: row;
