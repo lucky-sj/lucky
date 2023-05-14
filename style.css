@@ -118,6 +118,7 @@
   font-family: Jost;
   font-weight: 500;
   text-decoration: none;
+  display: inherit;
 }
 .navbar-link:hover {
   color: var(--dl-color-pallet-yellow);
