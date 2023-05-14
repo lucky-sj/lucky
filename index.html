@@ -7,8 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta charset="utf-8" />
   <meta property="twitter:card" content="summary_large_image" />
-  <script src="https://code.jquery.com/jquery-3.7.0.min.js"
-    integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 
 
   <style data-tag="reset-style-sheet">
@@ -136,10 +136,10 @@
         <header data-role="Header" class="home-header max-width-container">
           <div class="home-navbar1">
             <div class="home-container01">
-              <img alt="search3271286"
-                src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0nMjQnIGhlaWdodD0nMjQnIHZpZXdCb3g9JzAgMCAyNCAyNCcgZmlsbD0nbm9uZScgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJz4KPHBhdGggZmlsbC1ydWxlPSdldmVub2RkJyBjbGlwLXJ1bGU9J2V2ZW5vZGQnIGQ9J00xOC4zMTkgMTQuNDMyNkMyMC43NjI4IDExLjI5NDEgMjAuNTQyIDYuNzUzNDQgMTcuNjU2OSAzLjg2ODI2QzE0LjUzMjcgMC43NDQwNjcgOS40NjczNCAwLjc0NDA2NyA2LjM0MzE1IDMuODY4MjZDMy4yMTg5NSA2Ljk5MjQ2IDMuMjE4OTUgMTIuMDU3OCA2LjM0MzE1IDE1LjE4MkM5LjIyODMzIDE4LjA2NzIgMTMuNzY5IDE4LjI4NzkgMTYuOTA3NSAxNS44NDQyQzE2LjkyMSAxNS44NTk0IDE2LjkzNTEgMTUuODc0NCAxNi45NDk3IDE1Ljg4OTFMMjEuMTkyNCAyMC4xMzE3QzIxLjU4MjkgMjAuNTIyMiAyMi4yMTYxIDIwLjUyMjIgMjIuNjA2NiAyMC4xMzE3QzIyLjk5NzEgMTkuNzQxMiAyMi45OTcxIDE5LjEwOCAyMi42MDY2IDE4LjcxNzVMMTguMzY0IDE0LjQ3NDlDMTguMzQ5MyAxNC40NjAyIDE4LjMzNDMgMTQuNDQ2MSAxOC4zMTkgMTQuNDMyNlpNMTYuMjQyNiA1LjI4MjQ4QzE4LjU4NTggNy42MjU2MiAxOC41ODU4IDExLjQyNDYgMTYuMjQyNiAxMy43Njc4QzEzLjg5OTUgMTYuMTEwOSAxMC4xMDA1IDE2LjExMDkgNy43NTczNiAxMy43Njc4QzUuNDE0MjEgMTEuNDI0NiA1LjQxNDIxIDcuNjI1NjIgNy43NTczNiA1LjI4MjQ4QzEwLjEwMDUgMi45MzkzMyAxMy44OTk1IDIuOTM5MzMgMTYuMjQyNiA1LjI4MjQ4WicgZmlsbD0nYmxhY2snLz4KPC9zdmc+Cg=="
-                class="home-image" />
-              <input type="text" placeholder="search" class="home-textinput input" />
+              <div class="search-input">
+                <input type="text" placeholder="search" list="searchOptions" name="searchInput" id="searchInput"
+                  class="home-textinput input" />
+              </div>
             </div>
             <div class="home-middle">
               <div class="home-left">
@@ -207,6 +207,14 @@
           </div>
         </header>
       </div>
+      <div class="auto-com">
+        <li>5am Club</li>
+        <li>Think and grow rich</li>
+        <li>Rich dad poor dad</li>
+        <li>Can't hurt me</li>
+        <li>Atomic HABITS</li>
+        <li>The Art of Exploitation</li>
+      </div>
       <div class="home-main">
         <div class="home-hero section-container">
           <div class="home-max-width max-width-container">
@@ -253,47 +261,33 @@
             </div>
             <div class="home-cards-container">
               <div class="category-card-category-card">
-                <img alt="image"
-                  src="images/finance.avif"
-                  class="category-card-image" />
+                <img alt="image" src="images/finance.avif" class="category-card-image" />
                 <span class="category-card-text"><span>FINANCE</span></span>
               </div>
               <div class="category-card-category-card">
-                <img alt="image"
-                  src="images/Psychology.png"
-                  class="category-card-image" />
+                <img alt="image" src="images/Psychology.png" class="category-card-image" />
                 <span class="category-card-text"><span>PSYCHOLOGY</span></span>
               </div>
               <div class="category-card-category-card">
-                <img alt="image"
-                  src="images/motivation.avif"
-                  class="category-card-image" />
+                <img alt="image" src="images/motivation.avif" class="category-card-image" />
                 <span class="category-card-text"><span>FINANCE</span></span>
               </div>
               <div class="category-card-category-card">
-                <img alt="image"
-                  src="images/technology.jpeg"
-                  class="category-card-image" />
+                <img alt="image" src="images/technology.jpeg" class="category-card-image" />
                 <span class="category-card-text"><span>TECHNOLOGY</span></span>
               </div>
               <div class="category-card-category-card">
-                <img alt="image"
-                  src="images/novels.webp"
-                  class="category-card-image" />
+                <img alt="image" src="images/novels.webp" class="category-card-image" />
                 <span class="category-card-text"><span>NOVELS</span></span>
               </div>
               <div class="category-card-category-card">
-                <img alt="image"
-                  src="images/anime.jpg"
-                  class="category-card-image" />
+                <img alt="image" src="images/anime.jpg" class="category-card-image" />
                 <span class="category-card-text">
                   <span>ANIME</span>
                 </span>
               </div>
               <div class="category-card-category-card">
-                <img alt="image"
-                  src="images/collections.jpg"
-                  class="category-card-image" />
+                <img alt="image" src="images/collections.jpg" class="category-card-image" />
                 <span class="category-card-text">
                   <span>COLLECTIONS</span>
                 </span>
@@ -659,7 +653,15 @@
       </div>
     </div>
   </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+
+
   <script src="https://unpkg.com/@teleporthq/teleport-custom-scripts"></script>
+  <script src="js/suggestion.js"></script>
+  <script src="js/script.js"></script>
 </body>
 
 </html>
